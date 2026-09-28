@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vijay | DevOps Deployment Engineer Portfolio</title>
+    <style>
+        :root {
+            --primary: #007acc;
+            --dark: #1b1a1a;
+            --light: #f4f4f5;
+            --text: #333;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            color: var(--text);
+            background: #fafafa;
+        }
+        header {
+            background: var(--dark);
+            color: #fff;
+            padding: 3rem 1rem;
+            text-align: center;
+        }
+        header h1 { margin: 0; font-size: 2.5rem; color: var(--primary); }
+        header p { margin: 0.5rem 0 0; font-size: 1.2rem; color: #aaa; }
+        .container {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 0 1.5rem;
+        }
+        section {
+            background: #fff;
+            padding: 2rem;
+            margin-bottom: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+        h2 {
+            border-bottom: 2px solid var(--primary);
+            padding-bottom: 0.3rem;
+            color: var(--dark);
+            margin-top: 0;
+        }
+        .badge {
+            background: var(--light);
+            color: var(--dark);
+            padding: 0.3rem 0.7rem;
+            border-radius: 4px;
+            font-size: 0.85rem;
+            display: inline-block;
+            margin: 0.2rem;
+            font-weight: 600;
+        }
+        .project-title { font-weight: bold; font-size: 1.2rem; color: var(--primary); }
+        .job-title { font-weight: bold; color: #555; }
+        .date { float: right; color: #888; font-size: 0.9rem; }
+        @media(max-width: 600px) { .date { float: none; display: block; margin-bottom: 0.5rem; } }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Vijay Sankar</h1>
+        <p>DevOps Engineer | Deployment & Infrastructure Automation</p>
+        <p style="font-size: 1rem; color: #888;">📍 Bengaluru, India | ✉️ vijaysankar25@outlook.com</p>
+    </header>
+
+    <div class="container">
+        <!-- Professional Summary -->
+        <section>
+            <h2>Professional Summary</h2>
+            <p>
+                Experienced <strong>Systems Administrator</strong> transitioning into a <strong>DevOps Deployment Engineer</strong>. 
+                Leveraging deep expertise in Linux/Windows administration, core networking, and user security access to build high-availability, 
+                automated application delivery streams. Adept at migrating manual legacy deployment infrastructure over to streamlined 
+                <strong>GitOps workflows</strong> and zero-downtime containerized rollouts.
+            </p>
+        </section>
+
+        <!-- Technical Skills -->
+        <section>
+            <h2>Technical Core Skills</h2>
+            <div>
+                <span class="badge" style="background:#e1f5fe; color:#0288d1;">CI/CD: GitHub Actions</span>
+                <span class="badge" style="background:#e1f5fe; color:#0288d1;">GitOps: ArgoCD, Flux</span>
+                <span class="badge" style="background:#e8f5e9; color:#2e7d32;">Containers: Docker, Kubernetes (K8s)</span>
+                <span class="badge" style="background:#fff3e0; color:#ef6c00;">Cloud: AWS (EC2, EKS, S3, ECR)</span>
+                <span class="badge" style="background:#f3e5f5; color:#7b1fa2;">OS & Admin: Linux (Ubuntu/RHEL), System Admin</span>
+                <span class="badge" style="background:#ffebee; color:#c62828;">Config: YAML scripts, Shell Scripting</span>
+            </div>
+        </section>
+
+        <!-- Featured DevOps Project -->
+        <section>
+            <h2>Featured DevOps Deployment Project</h2>
+            <div class="project-title">Automated GitOps Continuous Deployment Pipeline</div>
+            <p><em>Targeting Zero-Downtime Multi-Service Application Rollouts</em></p>
+            <ul>
+                <li>Designed and built a highly resilient, fully automated Continuous Deployment (CD) pipeline utilizing <strong>GitHub Actions</strong> to package apps into secure <strong>Docker</strong> containers.</li>
+                <li>Configured declarative <strong>Kubernetes (K8s)</strong> manifests implementing a <code>RollingUpdate</code> strategy to guarantee 100% application uptime during production updates.</li>
+                <li>Eliminated environment configuration drift across cloud environments by writing standardized structure blueprints in declarative <strong>YAML configurations</strong>.</li>
+            </ul>
+        </section>
+
+        <!-- Experience -->
+        <section>
+            <h2>Professional Experience</h2>
+            <div>
+                <span class="date">2026 - Present</span>
+                <div class="job-title">Systems Administrator / Deployment Specialist</div>
+                <p style="margin: 0.2rem 0; color: #666;"><em>Nsyne Systems c/o Syaa Soft tech pvt ltd</em></p>
+                <ul>
+                    <li>Managed infrastructure scalability, user access permissions, and core operating system maintenance across mixed cloud/on-prem environments.</li>
+                    <li>Automated routine configurations using Linux shell scripting, laying down foundational paths toward complete CI/CD patterns.</li>
+                    <li>Collaborated directly with engineering teams to map resource dependencies, paving smoother paths for software releases.</li>
+                </ul>
+            </div>
+        </section>
+    </div>
+
+</body>
+</html>
