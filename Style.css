@@ -9,7 +9,6 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
     margin: 0;
-    padding: 0;
     color: var(--text);
     background: #fafafa;
 }
@@ -18,28 +17,3 @@ header {
     background: var(--dark);
     color: #fff;
     padding: 3rem 1rem;
-    text-align: center;
-    width: 100%;
-}
-
-/* This targets the container class in your HTML to keep all content centered */
-.container {
-    max-width: 800px;
-    margin: 30px auto; /* Centers the content blocks horizontally */
-    padding: 0 20px;   /* Adds breathing room on the left and right sides */
-}
-
-section {
-    background: #ffffff;
-    padding: 25px;
-    margin-bottom: 25px;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05); /* Adds a subtle card shadow */
-}
-
-h2 {
-    color: var(--primary);
-    border-bottom: 2px solid var(--light);
-    padding-bottom: 8px;
-    margin-top: 0;
-}
